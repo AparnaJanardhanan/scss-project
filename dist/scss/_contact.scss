@@ -1,0 +1,34 @@
+.contact {
+    height: 100%;
+    padding-top: 40vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: 
+    linear-gradient(
+        to right,
+        rgba($primary-color, 0.9),
+        rgba($primary-color, 0.3)
+    ),
+    url('/dist/img/background.avif') center top;
+    background-size: cover;
+
+    hr {
+        border-top: 1px dotted red;
+    }
+
+    h1 {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+        color: $secondary-color;
+    }
+
+    &__list {
+        font-size: 1.5rem;
+    }
+
+    .form-group {
+        padding-bottom: 15px;
+    }
+}
